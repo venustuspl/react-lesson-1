@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example</title>
+
+</head>
+
+<body>
+  <div id="root">
+    <!-- kontener na aplikację react  -->
+  </div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel" src="App.js"></script>
+  <script>
+    const numbers = [ 1, 2 ,3, 4]
+    const doubleNumbers = numbers.map(number => number * 2)
+    console.log(doubleNumbers)
+
+    class Person{
+      constructor (name) {
+        this.name = name;
+      }
+      showName() {
+        console.log('Imie osoby to:  ${this.name}');
+      }
+    }
+    class Student extends Person {
+      constructor(name = "", degrees = []){
+        super(name)
+        this.degrees = degrees
+      }
+      showDegrees (){
+        const completed = this.degrees.filter(degree => degree >2)
+        console.log(`Student ${this.name} ma stopnie ${this.degrees} i zaliczył już ${completed.length}`)
+      }
+    }
+const Janek = new Student("Jan", [2, 3, 4, 5, 2, 3])
+Janek.showDegrees()
+  </script>
+</body>
+
+</html>
