@@ -43,6 +43,18 @@
     }
 const Janek = new Student("Jan", [2, 3, 4, 5, 2, 3])
 Janek.showDegrees()
+
+const cat = {
+  kids: ['lucek', 'łapciuch'],
+  showKidsNames(){
+    console.log(`kot ma potomstwo: ${this.kids}`);
+    const showKidsNumber = () => {
+      console.log(this.kids.length);
+    }
+    showKidsNumber()
+  }
+}
+cat.showKidsNames()
   </script>
 </body>
 
