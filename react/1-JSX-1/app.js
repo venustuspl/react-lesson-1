@@ -3,6 +3,12 @@
 
 const element = <div>Pierwszy element React</div>
 
+const elementA = <div>To mój element </div>
+const elementB = React.createElement(
+  "div",
+  null,
+  "To jest to"
+)
 const element2 = React.createElement(
   "div",
   null,
