@@ -1,7 +1,9 @@
 .red {
+ font-size: 30px;
   color: red;
 }
 
 .big {
   font-size: 30px;
+  color: green;
 }

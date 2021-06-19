@@ -1,8 +1,8 @@
-const header = <h1 className="title">Witaj na stronie!</h1>
+const handleClick = () => alert("klik!")
+const header = <h1 className="title" onClick={handleClick} >Witaj na stronie!</h1>
 
 const classBig = "big";
 
-const handleClick = () => alert("klik!")
 const main = (
   <div>
     <h1 person="osoby" onClick={handleClick} className="red">Pierwszy artykuł</h1>
@@ -10,12 +10,13 @@ const main = (
   </div>
 )
 
+const disclaimer = "to i tamto";
 const text = "stopkaaa";
 const largeTxt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore temporibus quasi repudiandae, quia beatae, quas et nulla, soluta reprehenderit consequuntur voluptatum a delectus fuga? Minus, unde? Iusto fugit non quisquam."
 const footer = (
   <footer>
     {largeTxt}
-    <p className={classBig}>{text}</p>
+    <p className={classBig}>{text}{disclaimer}</p>
 
   </footer>
 )
