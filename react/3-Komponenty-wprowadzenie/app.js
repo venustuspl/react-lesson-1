@@ -22,7 +22,16 @@ class Article extends React.Component {
     )
   }
 }
-
+class Footer extends React.Component{
+state = {
+number: 0,
+}
+render(){
+return (
+    <Article />
+)
+}
+}
 const Blog = () => {
   return (
     <>
@@ -32,5 +41,5 @@ const Blog = () => {
   )
 }
 
-ReactDOM.render(<Blog />, document.getElementById('root'))
+ReactDOM.render(<Footer />, document.getElementById('root'))
 

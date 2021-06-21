@@ -1,10 +1,6 @@
 
 B
 js/src/main/App.js,d\d\dd8e3b25204671ce395b80561d86aaeb0de5229b
-V
-&react/3-Komponenty-wprowadzenie/app.js,2\0\205e48d62735faa38409150c23917f73cd9594e2
-U
-%react/4-Komponenty-state-props/app.js,2\c\2cc1bf20c4ee9d9dfb33aa6469e75b4e1351d974
 U
 %react/5-PrzyciskDodajTekst-cz1/app.js,7\7\77c687ffab9783549b551aabb3dcc2a6a54f05a7
 U
@@ -29,8 +25,6 @@ F
 react/9-dodatek/app.js,7\c\7c3990dd0656709513cde1a01d66ea0be80a6578
 H
 react/1-JSX-1/index.html,0\2\02a60f05317dedbcc3c2e5db330271fceec2e8e9
-Z
-*react/3-Komponenty-wprowadzenie/index.html,2\8\28cb0cb0aeadc03d693e7ad945e02216188bd368
 Y
 )react/4-Komponenty-state-props/index.html,e\2\e20d7d6fdf378d9c0df7ff23482c31543947b578
 Y
