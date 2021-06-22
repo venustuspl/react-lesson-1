@@ -53,3 +53,11 @@ Y
 )react/6-PokazWpisywanyTekst-cz1/style.css,0\9\09371376d386877eab2bd52e98213c0a9c4ef9ab
 Y
 )react/6-PokazWpisywanyTekst-cz2/style.css,c\b\cb233205b5082d370e33e2cc8843dab13b631d38
+G
+react/2-JSX-2/style.css,c\9\c9c53eabb8a75681f56de300851e72228217dd76
+D
+react/2-JSX-2/app.js,7\1\71f98d01f6083d76a03d42d897b5d5cf6ba7aca4
+Z
+*react/3-Komponenty-wprowadzenie/index.html,2\8\28cb0cb0aeadc03d693e7ad945e02216188bd368
+V
+&react/3-Komponenty-wprowadzenie/app.js,2\0\205e48d62735faa38409150c23917f73cd9594e2
