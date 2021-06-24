@@ -2,10 +2,6 @@
 B
 js/src/main/App.js,d\d\dd8e3b25204671ce395b80561d86aaeb0de5229b
 U
-%react/5-PrzyciskDodajTekst-cz1/app.js,7\7\77c687ffab9783549b551aabb3dcc2a6a54f05a7
-U
-%react/5-PrzyciskDodajTekst-cz2/app.js,f\e\fe8987b2000afa30ae02385c295bfef0d9383719
-U
 %react/5-PrzyciskDodajTekst-cz3/app.js,0\8\08031ae64ddaa282d865fae3e66311a68c78bc9e
 V
 &react/6-PokazWpisywanyTekst-cz1/app.js,f\f\ff9779abab20ff721cd4e2cf8a634d299d3900d6

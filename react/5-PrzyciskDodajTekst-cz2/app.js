@@ -3,19 +3,19 @@
 //Definiowanie state w konstruktorze
 
 class App extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     text: ""
-  //   }
-  //   this.handleClick = this.handleClick.bind(this)
-  // }
-
-  state = {
-    text: ""
+ constructor(props) {
+    super(props);
+    this.state = {
+      text: ""
+    }
+    this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick = () => {
+  // state = {
+  //   text: ""
+  // }
+
+  handleClick () {
     // this.state.text += "a";
     // console.log(this.state.text);
     // console.log(this);
