@@ -2,7 +2,6 @@
 // losowanie liczby 
 // Wyświetlenie nazwy przycisku z obiektu props, ze zmiennej bezpośrednio lub z obiektu state.
 
-
 class App extends React.Component {
 
   state = {
@@ -23,9 +22,20 @@ class App extends React.Component {
       <React.Fragment>
         <button onClick={this.handleClick}>{this.state.btn}</button>
         <PanelResult text={this.state.text} />
+        <PanelRender value={this.state.text} > dziecko </PanelRender>
       </React.Fragment>
     )
   }
+}
+
+const PanelRender = (props) => {
+  return (
+  <ul>
+    <li>
+      <h4>{props.value}</h4>
+    </li>
+  </ul>
+  )
 }
 
 const PanelResult = (props) => {
