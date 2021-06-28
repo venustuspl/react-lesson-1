@@ -4,12 +4,12 @@ class App extends React.Component {
   }
 
   handleChange = (e) => {
-    console.log("Zawartość w evencie: " + e.target.value);
-    console.log("Zawartość value przed setState: " + this.state.value);
+    console.log(Date.now() + "Zawartość w evencie: " + e.target.value);
+    console.log(Date.now() +"Zawartość value przed setState: " + this.state.value);
     this.setState({
       value: e.target.value
     })
-    console.log("Zawartość value po setState: " + this.state.value);
+    console.log(Date.now() + "Zawartość value po setState: " + this.state.value);
   }
 
   handleClick = () => {
@@ -19,7 +19,7 @@ class App extends React.Component {
   }
 
   render() {
-    console.log("Zawartość value w trakcie metody render: " + this.state.value);
+    console.log( Date.now() + "Zawartość value w trakcie metody render: " + this.state.value);
     return (
       <React.Fragment>
         <input value={this.state.value} placeholder="wpisz..." onChange={this.handleChange} type="text" />

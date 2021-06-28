@@ -1,10 +1,6 @@
 
 B
 js/src/main/App.js,d\d\dd8e3b25204671ce395b80561d86aaeb0de5229b
-V
-&react/6-PokazWpisywanyTekst-cz1/app.js,f\f\ff9779abab20ff721cd4e2cf8a634d299d3900d6
-V
-&react/6-PokazWpisywanyTekst-cz2/app.js,c\9\c9fcf3d0087ca806f39f42e82518c4d4be3f3072
 Q
 !react/7-PokazWiadomosc-cz1/app.js,7\7\7709fabef6c8c8b56af2ba141254126597a19960
 Q
@@ -27,8 +23,6 @@ Y
 )react/5-PrzyciskDodajTekst-cz2/index.html,9\0\90cc8653ee994849b72cfb7788071c719baafacd
 Y
 )react/5-PrzyciskDodajTekst-cz3/index.html,c\3\c301335d11bcd28af0bed1e3840e2e831bba36f2
-Z
-*react/6-PokazWpisywanyTekst-cz1/index.html,3\b\3bbebcc5e956549b862a2ac60bbc2ba2990a531d
 Z
 *react/6-PokazWpisywanyTekst-cz2/index.html,2\1\21b80027823b8126f99c0019a04a06d468a2a705
 U
@@ -55,3 +49,7 @@ Z
 *react/3-Komponenty-wprowadzenie/index.html,2\8\28cb0cb0aeadc03d693e7ad945e02216188bd368
 V
 &react/3-Komponenty-wprowadzenie/app.js,2\0\205e48d62735faa38409150c23917f73cd9594e2
+V
+&react/6-PokazWpisywanyTekst-cz1/app.js,f\f\ff9779abab20ff721cd4e2cf8a634d299d3900d6
+Z
+*react/6-PokazWpisywanyTekst-cz1/index.html,3\b\3bbebcc5e956549b862a2ac60bbc2ba2990a531d
