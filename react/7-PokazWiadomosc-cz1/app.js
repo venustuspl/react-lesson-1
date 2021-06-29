@@ -2,9 +2,14 @@ class Message extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      messageIsActive: false
+        messageIsActive: false
     };
     this.handleMessageButton = this.handleMessageButton.bind(this);
+//    super(props);
+//    this.state = {
+//      messageIsActive: false
+//    };
+//    this.handleMessageButton = this.handleMessageButton.bind(this);
   }
 
   handleMessageButton() {
@@ -24,6 +29,10 @@ class Message extends React.Component {
         </button>
         {/* {this.state.messageIsActive ? <p>{text}</p> : null} */}
         {this.state.messageIsActive && <p>{text}</p>}
+
+        <button onClick={this.handleMessageButton}> {this.state.messageIsActive ? 'Hide' : 'Show'}
+        </button>
+        {this.state.messageIsActive && <p> {text} </p>}
 
       </React.Fragment>
     );
