@@ -4,7 +4,7 @@ class Message extends React.Component {
     this.state = {
       messageIsActive: false
     };
-    this.handleMessageButton = this.handleMessageButton.bind(this);
+    this.handleMessageButton2 = this.handleMessageButton2a.bind(this);
   }
 
   handleMessageButton() {
@@ -13,6 +13,13 @@ class Message extends React.Component {
     }));
   }
 
+handleMessageButton2a() {
+  debugger
+    this.setState((prevState) => ({
+        messageIsActive: !prevState.messageIsActive
+    }));
+}
+
   render() {
     // console.log(this.state.messageIsActive);
     const text =
@@ -20,7 +27,7 @@ class Message extends React.Component {
 
     return (
       <React.Fragment>
-        <button onClick={this.handleMessageButton}>     {this.state.messageIsActive ? 'Ukryj' : "Pokaż"}
+        <button onClick={this.handleMessageButton2}>     {this.state.messageIsActive ? 'Ukryj' : "Pokaż"}
         </button>
         {/* {this.state.messageIsActive ? <p>{text}</p> : null} */}
         {this.state.messageIsActive && <p>{text}</p>}

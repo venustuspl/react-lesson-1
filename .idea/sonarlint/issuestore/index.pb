@@ -1,8 +1,6 @@
 
 B
 js/src/main/App.js,d\d\dd8e3b25204671ce395b80561d86aaeb0de5229b
-Q
-!react/7-PokazWiadomosc-cz2/app.js,4\9\49b2c5dcc351856a371132c21cf9f0d839e6ba1f
 J
 react/8-clicker-cz1/app.js,a\0\a04f0ecb39515acb974f416d1e41d704986049b5
 J
@@ -53,3 +51,9 @@ Z
 *react/6-PokazWpisywanyTekst-cz1/index.html,3\b\3bbebcc5e956549b862a2ac60bbc2ba2990a531d
 V
 &react/6-PokazWpisywanyTekst-cz2/app.js,c\9\c9fcf3d0087ca806f39f42e82518c4d4be3f3072
+U
+%react/5-PrzyciskDodajTekst-cz1/app.js,7\7\77c687ffab9783549b551aabb3dcc2a6a54f05a7
+U
+%react/4-Komponenty-state-props/app.js,2\c\2cc1bf20c4ee9d9dfb33aa6469e75b4e1351d974
+U
+%react/5-PrzyciskDodajTekst-cz3/app.js,0\8\08031ae64ddaa282d865fae3e66311a68c78bc9e
