@@ -2,8 +2,6 @@
 B
 js/src/main/App.js,d\d\dd8e3b25204671ce395b80561d86aaeb0de5229b
 J
-react/8-clicker-cz1/app.js,a\0\a04f0ecb39515acb974f416d1e41d704986049b5
-J
 react/8-clicker-cz2/app.js,3\6\36c2c214dee3737e4d0d1d9d6d1d97db1e1ae85c
 J
 react/8-clicker-cz3/app.js,8\5\85da0e814859e3c5dada2ceb39247af3e5d03185
