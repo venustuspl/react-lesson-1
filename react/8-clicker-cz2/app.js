@@ -26,14 +26,21 @@ class Counter extends React.Component {
           result: prevState.result + number
         }
       ))
+    } else if (type === "multiply"){
+    this.setState(
+    prevState => ({
+    cont: prevState.count + 1,
+    result: prevState.result * number
+    }
+    ))
     }
 
   }
   render() {
     return (
       <>
-        <MathButton
-          name="-10"
+        <MyMathButton
+          name="-10*3"
           number="10"
           type="subtraction"
           click={this.handleMathClick}
@@ -51,10 +58,10 @@ class Counter extends React.Component {
           click={this.handleMathClick}
         />
 
-        <MathButton
-          name="+1"
+        <MyMathButton
+          name="*3"
           number="1"
-          type="addition"
+          type="multiply"
           click={this.handleMathClick}
         />
 
@@ -79,6 +86,12 @@ const MathButton = (props) => {
   )
 }
 
+const MyMathButton = (props) => {
+    const number = parseInt(props.number)
+    return (
+    <button onClick={() => props.click(props.type, number * 3)}> {props.name} </button>
+    )
+}
 
 const startValue = 0;
 ReactDOM.render(<Counter result={startValue} />, document.getElementById('root'))
