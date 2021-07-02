@@ -65,6 +65,13 @@ class Counter extends React.Component {
           click={this.handleMathClick}
         />
 
+        <MyMathButton
+            name="*10"
+            number="10"
+            type="multiply"
+            click={this.handleMathClick}
+            />
+
         <MathButton
           name="+10"
           number="10"
