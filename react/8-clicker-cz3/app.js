@@ -65,6 +65,7 @@ class Counter extends React.Component {
           click={this.handleMathClick}
         />
         <ResultPanel count={this.state.count} result={this.state.result} />
+        <MyResultPanel count={this.state.count} result={this.state.result} />
       </>
     )
   }
@@ -88,7 +89,14 @@ const ResultPanel = (props) => {
   )
 }
 
-
+const MyResultPanel = (props) => {
+return (
+    <React.Fragment>
+    <h1> Liczba kliknięć: {props.count} {props.count > 5 ? <span> Przeciążenie pamięci ! </span> : null} </h1>
+    <h1> Wynik: {props.result} {props.result > 5 ? <span> Warning !!! </span> : null} </h1>
+    </React.Fragment>
+)
+}
 
 
 const startValue = 0;

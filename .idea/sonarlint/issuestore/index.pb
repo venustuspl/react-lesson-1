@@ -1,8 +1,6 @@
 
 B
 js/src/main/App.js,d\d\dd8e3b25204671ce395b80561d86aaeb0de5229b
-J
-react/8-clicker-cz3/app.js,8\5\85da0e814859e3c5dada2ceb39247af3e5d03185
 F
 react/9-dodatek/app.js,7\c\7c3990dd0656709513cde1a01d66ea0be80a6578
 H
