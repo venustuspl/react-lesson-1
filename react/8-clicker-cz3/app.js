@@ -99,5 +99,5 @@ return (
 }
 
 
-const startValue = 0;
-ReactDOM.render(<Counter result={startValue} />, document.getElementById('root'))
+const resultStartValue = 0;
+ReactDOM.render(<Counter result={resultStartValue} />, document.getElementById('root'))

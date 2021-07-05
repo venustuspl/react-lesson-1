@@ -1,8 +1,6 @@
 
 B
 js/src/main/App.js,d\d\dd8e3b25204671ce395b80561d86aaeb0de5229b
-F
-react/9-dodatek/app.js,7\c\7c3990dd0656709513cde1a01d66ea0be80a6578
 H
 react/1-JSX-1/index.html,0\2\02a60f05317dedbcc3c2e5db330271fceec2e8e9
 Y
@@ -23,10 +21,6 @@ N
 react/8-clicker-cz1/index.html,2\8\285a33eee5e0110f5bcb4c33061de9fcb3a88a76
 N
 react/8-clicker-cz2/index.html,3\2\3204e96e43fae227a8a0af216af0e83df76f5360
-N
-react/8-clicker-cz3/index.html,d\f\dfdd582a16377e4e1ce928a9415b79a8269c364b
-J
-react/9-dodatek/index.html,6\d\6d1d6c068d61b18c05a2ba283461171e9df0e7f9
 Y
 )react/6-PokazWpisywanyTekst-cz1/style.css,0\9\09371376d386877eab2bd52e98213c0a9c4ef9ab
 Y
