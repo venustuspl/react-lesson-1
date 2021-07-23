@@ -49,3 +49,11 @@ U
 %react/5-PrzyciskDodajTekst-cz2/app.js,f\e\fe8987b2000afa30ae02385c295bfef0d9383719
 Q
 !react/7-PokazWiadomosc-cz2/app.js,4\9\49b2c5dcc351856a371132c21cf9f0d839e6ba1f
+J
+react/8-clicker-cz2/app.js,3\6\36c2c214dee3737e4d0d1d9d6d1d97db1e1ae85c
+N
+react/8-clicker-cz3/index.html,d\f\dfdd582a16377e4e1ce928a9415b79a8269c364b
+J
+react/9-dodatek/index.html,6\d\6d1d6c068d61b18c05a2ba283461171e9df0e7f9
+F
+react/9-dodatek/app.js,7\c\7c3990dd0656709513cde1a01d66ea0be80a6578
