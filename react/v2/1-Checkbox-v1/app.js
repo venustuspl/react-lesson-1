@@ -1,7 +1,7 @@
 const PositiveMessage = () => <p>Możesz obejrzeć film. Zapraszamy!</p>;
 const NegativeMessage = () => <p>Nie możesz obejrzeć tego filmu jeśli masz mniej niż 16 lat!</p>;
 const DisclaimerMessage = () => <p>Oglądaj legalne filmy</p>
-const PersonsCout = () => <p>Kupujesz bilet dla 2 osób</p> 
+const PersonsCount = () => <p>Kupujesz bilet dla 2 osób</p> 
 
 class CheckboxAgeConfirmation extends React.Component {
 
@@ -46,7 +46,7 @@ class CheckboxAgeConfirmation extends React.Component {
         <label htmlFor="age">Mam co najmniej 16 lata</label>
         {this.displayMessage()}
         <input type="checkbox" id="persons" onChange={this.handleCheckboxPersonsChange} checked={this.is2Persons}/>
-        <label htmlFor="persons">Kupiłeś bilet dla 2 osób</label>
+        <label htmlFor="persons">Kupujesz bilet dla 2 osób</label>
         {this.personsMessage()}
       </>
     )
