@@ -57,3 +57,11 @@ J
 react/9-dodatek/index.html,6\d\6d1d6c068d61b18c05a2ba283461171e9df0e7f9
 F
 react/9-dodatek/app.js,7\c\7c3990dd0656709513cde1a01d66ea0be80a6578
+M
+react/v2/1-Checkbox-v1/app.js,9\9\99b68ad84a159ffb6c8eb890547e8877db4dcf19
+M
+react/v2/2-Checkbox-v2/app.js,d\8\d8cf7300cabf14aa09d5f3b52d999af2887ae7f3
+Q
+!react/v2/2-Checkbox-v2/index.html,f\5\f558a084208130a45265485ca76037296bde3a6d
+Q
+!react/v2/3-Checkbox-v3/index.html,4\c\4c016e41843123807e8a86c0458b40678d86e326
