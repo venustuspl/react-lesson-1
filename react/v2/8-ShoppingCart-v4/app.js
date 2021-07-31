@@ -4,6 +4,7 @@ class App extends React.Component {
   state = {
     availableProducts: 7,
     shoppingCart: 1,
+    discount: false,
   }
 
   handleRemoveFromCart = () => {
@@ -19,15 +20,22 @@ class App extends React.Component {
   }
 
   handleBuy = () => {
+    if (this.state.shoppingCart > 3) {
+      this.setState({
+        discount: true,
+      })
+    }
+      
     this.setState({
       availableProducts: this.state.availableProducts - this.state.shoppingCart,
       shoppingCart: 0,
+      discount: false,
     })
   }
 
   render() {
-    const { shoppingCart, availableProducts } = this.state
-    const style = shoppingCart === 0 ? { opacity: 0.3 , color: 'red' } : { color: 'green'  };
+    const { shoppingCart, availableProducts, discount } = this.state
+    const style = shoppingCart === 0 ? { opacity: 0.3, color: 'red'} : { color: 'green' };
 
     return (
       <div>
@@ -37,6 +45,7 @@ class App extends React.Component {
 
         <button disabled={shoppingCart === availableProducts ? true : false} onClick={this.handleAddToCart}>+</button>
         {shoppingCart > 0 && <button onClick={this.handleBuy}>Kup</button>}
+        {shoppingCart > 3 && <div> You will get discount</div>}
 
       </div>
     )
