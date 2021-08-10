@@ -7,6 +7,7 @@ class App extends React.Component {
       { id: 4, name: "zupa wodna", active: true },
       { id: 5, name: "wrzątek", active: false },
       { id: 6, name: "chleb", active: false },
+      { id: 7, name: "margaryna", active: true},
     ],
 
   }
