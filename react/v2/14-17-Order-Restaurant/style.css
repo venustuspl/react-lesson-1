@@ -18,6 +18,10 @@ li:nth-child(odd) {
 
 .enabled {
   font-weight: bold;
+  border: 100;
+  border-color: red;
+  border-radius: 6%;
+  border-style: solid;
 } 
 .disabled {
 color: gray;

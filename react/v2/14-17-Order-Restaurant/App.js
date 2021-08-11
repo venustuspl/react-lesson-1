@@ -9,7 +9,6 @@ class App extends React.Component {
       { id: 6, name: "chleb", active: false },
       { id: 7, name: "margaryna", active: true},
     ],
-
   }
 
   handleChangeStatus = (id) => {
@@ -25,7 +24,6 @@ class App extends React.Component {
     this.setState({
       items
     })
-
   }
 
   render() {
